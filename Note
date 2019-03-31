@@ -1,0 +1,29 @@
+---------------------------- JAVA 1.7 + supported ----------------------------
+MonitorFileFinal.java and FinalMonitor.java -- Java 1.8 supported
+
+
+---------------------------- JAVA 1.6 supported ------------------------------
+FileMonitorJavaOld.java , FinalFileMonitorJavaOld.java and ReadDirectory.java-- Java 1.6 supported
+FileMonitorJavaOld.java , FinalFileMonitorJavaOld.java -> Read Single File
+ReadDirectory.java -> Read all files present in Directory
+
+Need Extra Jars: 
+commons-vfs2-2.0.jar
+commons-logging-1.2.jar
+commons-logging-1.2-javadoc.jar
+
+
+##Refer Links: -------
+// for compare method
+//https://stackoverflow.com/questions/31426187/want-to-find-content-difference-between-two-text-files-with-java
+// https://stackoverflow.com/questions/20797281/how-to-check-content-of-file-that-is-being-updated-externally-using-java
+
+
+
+-----------------------------------------------------------------------------
+
+ATM.java::
+ATM program to withdraw cash in least possible number of notes. ATM has $500, $50 and $20 notes.
+maximum limit to withdraw in a transaction is $500. 
+If the ATM cannot dispense the exact amount then display message as:
+"ATM cannot dispense this Amount, Please choose another Amount".
